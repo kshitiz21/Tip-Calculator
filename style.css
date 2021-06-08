@@ -1,0 +1,90 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-size: .8em;
+	width: 100%;
+	margin: 0 auto;
+	letter-spacing: 0.5px;
+	font-family: sans-serif;
+	background: linear-gradient(to left, #656867, #202222);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ 
+#container {
+	height: 525px;
+	width: 360px;
+	margin: 100px auto;
+	background: hsl(340, 11%, 95%);
+	box-shadow: 0 0 3px rgba(194, 67, 67, 0.1);
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+}
+  
+h1 {
+	background: #788144;
+	margin: 0;
+	padding: 10px 100px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: normal;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+hr {
+	border-top: 1px solid black;
+	width: 60%;
+}
+
+div {
+	line-height: 2.5em;
+	text-align: center;
+}
+
+label{
+	font-size: 1.5em;
+}
+
+input[type="number"]{
+	font-size: 1.3em;
+	text-align: center;
+	font-weight: bold;
+}
+
+button {
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	margin: 30px auto;
+	background: green;
+	border-radius: 5px;
+	width: 150px;
+	height: 35px;
+	font-size: 17px;
+	color: white;
+}
+  
+button:hover {
+	cursor: pointer;
+	background: #4c2827;
+	border-bottom-color: #111;
+}
+  
+button:active {
+	position: relative;
+	top: 1px;
+}
+
+.dollarSign {
+	display: inline;
+}
+
+#tipperperson, #total {
+	font-size: 1.5em;
+	font-weight: bold;
+}

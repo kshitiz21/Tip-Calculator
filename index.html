@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Tip Calculator Using JavaScript</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Tip Calculator</h1>
+        <div>
+            <label for="Bill">Bill *</label><br>
+            <input type="number" name="Bill" id="billamt" placeholder="Enter bill amount..." required>
+        </div>
+        <div>
+            <label for="Tip">Tip %</label><br>
+            <input type="number" name="Tip" id="tippercent">
+        </div>
+        <div>
+            <label for=" people">Number of people</label><br>
+            <input type="number" name="people" id="numofpeople" oninput="this.value=(parseInt(this.value)||0)">
+        </div>
+        <div>
+            <button type="button" id="calculate">Calculate</button>
+        </div>
+        <hr>
+        <div>
+            <label>Tip per person:</label><span id="tipperperson"> 0</span>
+        </div>
+        <div>
+            <label>Total per person:</label><span id="total"> 0</span>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
